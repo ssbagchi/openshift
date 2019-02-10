@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "name": "hello-openshift"
+        "name": "hello-openshift1"
     },
     "kind": "Service",
     "spec": {
@@ -15,7 +15,7 @@
         ],
         "type": "ClusterIP",
         "selector": {
-            "name": "hello-openshift"
+            "name": "hello-openshift1"
         }
     },
     "apiVersion": "v1"

@@ -1,0 +1,13 @@
+{
+    "metadata": {
+        "name": "hello-route"
+    },
+    "kind": "Route",
+    "spec": {
+        "to": {
+            "kind": "Service",
+            "name": "hello-openshift"
+        }
+    },
+    "apiVersion": "v1"
+}

@@ -1,0 +1,22 @@
+{
+    "metadata": {
+        "name": "hello-openshift"
+    },
+    "kind": "Service",
+    "spec": {
+        "sessionAffinity": "None",
+        "ports": [
+            {
+                "targetPort": 8080,
+                "nodePort": 0,
+                "protocol": "TCP",
+                "port": 80
+            }
+        ],
+        "type": "ClusterIP",
+        "selector": {
+            "name": "hello-openshift"
+        }
+    },
+    "apiVersion": "v1"
+}
